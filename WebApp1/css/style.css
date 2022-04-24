@@ -1,0 +1,175 @@
+﻿body {
+    overflow-x: hidden; /* The Horizontal Axis*/
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-weight: bolder;
+}
+
+nav {
+    border-bottom: #ad4102 3px solid;
+}
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+
+hr {
+    border-bottom: #ad4102 3px solid;
+}
+#indicator {
+    width: 15px;
+    border: none;
+    background: #ad4102;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+
+
+.carousel-image-1 {
+    background: url('../img/stage1.jpg');
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    /*background-position: 0 550px;*/
+   
+}
+
+
+.carousel-image-2 {
+    background: url('../img/pract.jpg');
+    background-size: cover;
+    /*background-position: 0 -30px;*/
+    /*background-attachment: fixed;*/
+}
+
+
+
+.carousel-image-3 {
+    background: url('../img/ringbox.jpg');
+    background-size: cover;
+    /*background-position: 0 870px;*/
+    /*background-attachment: fixed;*/
+}
+
+
+
+
+
+
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/night.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.dark-overlaysec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+#home-section {
+    background: url(../img/pract.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 700px;
+    min-height: 700px;
+}
+
+    #home-section .dark-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-height: 700px;
+        min-height: 700px;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    /* Making the Home Section come down under the NavBar*/
+    #home-section .home-inner {
+        padding-top: 150px;
+    }
+
+    /* Making the Login card transparent*/
+    #home-section .card-form {
+        opacity: 0.8;
+        margin-top: -80px;
+    }
+
+    /* The FontAwesome Mark icon*/
+    #home-section .fas,
+    #create-section .fas {
+        color: #008ed6;
+        background: #fff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+#homee-section {
+    background: url(../img/box.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 700px;
+    min-height: 700px;
+}
+
+    #homee-section .dark-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-height: 700px;
+        min-height: 700px;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    /* Making the Home Section come down under the NavBar*/
+    #homee-section .homee-inner {
+        padding-top: 150px;
+        /*margin-top: 100px;*/
+    }
+
+    /* Making the Login card transparent*/
+    #homee-section .card-form {
+        opacity: 0.8;
+      
+    }
+
+
+
+
+
+

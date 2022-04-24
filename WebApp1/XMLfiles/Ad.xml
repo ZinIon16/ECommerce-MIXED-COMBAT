@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+
+  <Ad>
+    <ImageUrl>~/img/inti3.png</ImageUrl>
+    <NavigateUrl>https://newinti.edu.my/ </NavigateUrl>
+    <AlternateText>Hurray! 2FOR1INTICare</AlternateText>
+    <Impressions>10</Impressions>
+    <Keyword>2 For 1 INTI Care</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/inti5.png</ImageUrl>
+    <NavigateUrl> https://newinti.edu.my/ </NavigateUrl>
+    <AlternateText> Hurray! 2FOR1INTICare</AlternateText>
+    <Impressions>10</Impressions>
+    <Keywords> 2 For 1 INTI Care</Keywords>
+  </Ad>
+ 
+
+</Advertisements>
